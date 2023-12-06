@@ -108,12 +108,12 @@
     min-height: unset;
 }
 
-/* #completions table tr td.prefix,
+#completions table tr td.prefix,
 #completions table tr td.privatewindow,
 #completions table tr td.container,
 #completions table tr td.icon {
-    display: none;
-} */
+  width: 2rem;
+}
 
 #completions .BufferCompletionSource table {
     width: unset;
