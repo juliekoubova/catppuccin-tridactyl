@@ -63,7 +63,6 @@
 
 #completions table {
     font-size: 0.8rem;
-    font-weight: 200;
     border-spacing: 0;
     table-layout: fixed;
     padding: 1rem 0;
@@ -84,7 +83,6 @@
     background: var(--tridactyl-bg);
     display: inline-block;
     font-size: unset;
-    font-weight: 200;
     overflow: hidden;
     width: 100%;
     border-top: unset;
@@ -110,9 +108,12 @@
     min-height: unset;
 }
 
-#completions table tr td.prefix,#completions table tr td.privatewindow,#completions table tr td.container,#completions table tr td.icon {
+/* #completions table tr td.prefix,
+#completions table tr td.privatewindow,
+#completions table tr td.container,
+#completions table tr td.icon {
     display: none;
-}
+} */
 
 #completions .BufferCompletionSource table {
     width: unset;
@@ -168,7 +169,6 @@
     border: unset !important;
     border: 1px var(--purple) solid !important;
     font-size: 12pt !important;
-    /*font-weight: 200 !important;*/
     padding: 0.8ex !important;
 }
 
